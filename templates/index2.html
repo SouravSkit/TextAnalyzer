@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IS working</title>
+</head>
+<body>
+
+{{name}} is from {{place}}
+<h3>This is a text analyzer. Enter your text below</h3>
+<form action="/removepunc" method = "get">
+    <textarea name = "text"></textarea>
+    <input type = "checkbox" name = "removepunc">Remove Punctuation<br>
+    <input type = "checkbox" name = "fullcaps">Full capitalize<br>
+    <input type = "checkbox" name = "spaceremover">Space Remover<br>
+    <input type = "checkbox" name = "charcount">Character Count<br>
+    <button type="submit">Analyze text</button>
+</form>
+
+</body>
+</html>
